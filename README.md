@@ -5,27 +5,47 @@
 # The World in One Day — Saturday 21 November 2026
 
 One 1024×1024 image summing up Saturday 21 November 2026's world news as a
-broadsheet front page: 12 Saturday stories across 6 regions — 4 heroes, 8
-briefs — with a numbers strip, a world map with numbered pins, and a 24-item
-DATE CHECK box.
+broadsheet front page: 37 Saturday stories across 7 regions — 4 heroes, 33
+briefs — with a numbers strip, a world map with 16 numbered pins, and a
+29-item DATE CHECK box. Version 2 of the entry: v1 carried only 12 stories,
+while the leading entries carry 33–36, so v2 keeps v1's four heroes and adds
+25 more verified Saturday briefs.
 
 The four lead stories are COP31 slipping into overtime in Antalya with no
 deal, Saudi air defences stopping three Houthi missiles over Riyadh, a
 magnitude 6.7 earthquake shaking central Peru and felt in Lima, and the
 ESA–JAXA BepiColombo craft entering orbit around Mercury after eight years
-on the road. Every story on the page happened, or was first reported, on
-Saturday 21 November 2026; stories first reported on Friday 20 November or
-earlier — the Russian missiles landing in Poland, Cyclone Akvan's landfall,
-the S&P 500's 3.7% drop, the JPMorgan/Visa/Mastercard vendor hack, the WFP's
-cut 2027 aid target, the $52m children's fund, the pancreatic cancer pill,
+on the road. The 33 briefs span the day: Rutte in Warsaw, Rahul's 136 in
+Wellington, Akvan's rain moving inland, Kyiv digging out, Bolsonaro stable,
+Verstappen on pole in Las Vegas, the Houthis threatening ports, the Gaza
+child toll passing 22,000, a fatal fire at Basra's Hartha power station, UN
+talks to regulate "killer robots", protests at Meta's India offices, South
+Korea's AI race, Vietnam's land-seizure law, the Palisades fire verdict,
+Zelensky calling Putin "a killer", the $7.25bn Bayer settlement, migrant
+scammers fined $811m, the ANC fighting to hold South African cities, a
+Russian plot against a rapper, Trump's AI data-centre threat, declassified
+UFO footage, Nepal's PM heading to Delhi, a pet-dumping livestream scandal,
+GTA 6 sales topping $2bn, the Zecler beating sentences, a 19-year sentence
+in the Sikh murder plot, 600 women killed in South Africa, cost-of-living
+protests across Europe, a classified SpaceX launch, Fiona the hippo's death,
+Malaysia resettling 10,000 Rohingya, the White House cyber chief sacked,
+and a Texas execution lasting over an hour.
+
+Every story on the page happened, or was first reported, on Saturday 21
+November 2026; stories first reported on Friday 20 November or earlier —
+the Russian missiles landing in Poland, Cyclone Akvan's landfall, the S&P
+500's 3.7% drop, the JPMorgan/Visa/Mastercard vendor hack, the WFP's cut
+2027 aid target, the $52m children's fund, the pancreatic cancer pill,
 Trump's Iran decision, Bolsonaro's hospitalisation, the Rikers closure plan,
 Anthropic's IPO, the ICJ's Rohingya genocide ruling, the Shenzhen summit,
 the Senate's 51–48 Iran vote, the Pete Rose pardon, GTA VI's launch, the
 Elantra unveil, the Estonia border shutdown, the UK drone pledge, the €1bn
 EU aid package, the Iran sanctions, the Hormuz tanker strike, the Van Gogh
-sale and Voyager 1's one light-day — are quarantined in the DATE CHECK box
-and never presented as Saturday news. Sources: Reuters, AP, AFP, BBC, IMD,
-UNFCCC, ESA, USGS, CNN.
+sale, Voyager 1's one light-day, the death of Phumzile Mlambo-Ngcuka, the
+Mongolian president's resignation, the SEC's Nvidia probe, the UK–EU deal
+and the Qeshm Island blast — are quarantined in the DATE CHECK box and
+never presented as Saturday news. Sources: Reuters, AP, AFP, BBC, AAP,
+Space.com, IMD, UNFCCC, ESA, USGS.
 
 The image was drawn with real typography (no AI-generated art, so no garbled
 text) and brightened art bands so the page stays legible at about 300 pixels
@@ -43,9 +63,9 @@ identical bytes.
 
 ## Build
 
-The image is rendered by `render.py` (kept outside this repository, in the
+The image is rendered by `render2.py` (kept outside this repository, in the
 build workspace) with Pillow and the Liberation fonts; it draws the whole
-front page — masthead, 4 hero cards, numbers strip, map, 8 briefs and the
+front page — masthead, 4 hero cards, numbers strip, map, 33 briefs and the
 DATE CHECK box — from the verified story list, and renders twice to confirm
 byte-identical output.
 
